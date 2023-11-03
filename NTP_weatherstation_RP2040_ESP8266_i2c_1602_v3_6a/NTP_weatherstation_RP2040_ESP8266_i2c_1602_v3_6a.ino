@@ -594,7 +594,7 @@ if (millis() - tpschimbare > tpsch)
      if (millis() - tpclipit > tpclipire)
      {
      bataie++;
-     if (bataie > 16) bataie = 2;
+     if (bataie > 15) bataie = 2;
       rled = 10*(bataie/8);
       gled = 10*((bataie%8)/4);
       bled = 10*(((bataie%8)%4)/2);
