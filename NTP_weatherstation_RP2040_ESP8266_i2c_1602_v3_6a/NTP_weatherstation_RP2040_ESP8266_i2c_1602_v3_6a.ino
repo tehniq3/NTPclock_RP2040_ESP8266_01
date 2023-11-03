@@ -21,6 +21,7 @@
  v.3.4 - added updated time for weater on display, added percent of clouds if exist
  v.3.5 - moved to RP2040-Zero (GP8 for DST switch). but works as well on Rpi Pico (flashing led works just with RPi Pico)
  v.3.6 - ingored wrong data for clock, using previous good data + RGB led flash on RP2040-Zero
+v.3.6a - improved flash color changes
  *****************************************************************************************************************************/
 
  #include <Wire.h> //This library allows you to communicate with I2C devices  
@@ -154,7 +155,7 @@ void setup()
   lcd.setCursor(0,0); 
   lcd.print("RP2040 + ESP8266");  
   lcd.setCursor(0,1);  
-  lcd.print(" v3.6 by niq_ro ");  
+  lcd.print("v3.6.a by niq_ro");  
 
  //check for the presence of the shield
   if (WiFi.status() == WL_NO_SHIELD)
