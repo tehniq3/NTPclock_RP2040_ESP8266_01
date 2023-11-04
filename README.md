@@ -9,6 +9,8 @@ based on https://nicuflorica.blogspot.com/2023/10/conectare-placa-de-dezvoltare-
 
 4th article: https://nicuflorica.blogspot.com/2023/11/statie-meteo-cu-rp2040-zero-si-esp8266.html
 
+5th article: https://nicuflorica.blogspot.com/2023/11/ceas-ntp-si-statie-meteo-cu-rp2040-zero.html
+
 main library: https://github.com/khoih-prog/ESP8266_AT_WebServer , but it need to added also libraries from:https://github.com/marcusrugger/functional-vlpp and https://github.com/khoih-prog/DoubleResetDetector_Generic
 
 ![1](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhX3qdDUQIluVvOBNZ1892l9Fyk6V5o6kCrWwh8_1a6Pj9ZEPlhsOjgTCzeyn_zRY59lRo99Oj_f_lcGqz2SgqT3E4eVvJOTNvYPGyR5Lgutc48BvOkKXYGDF0KJ7xb-uXgpglxusxHHO3IQ2TaLaHYovvNsGtCcZ4k3zbe_wAHhgqDE_6oYPSMsEYxJrtV/w200-h150/NTPclock_RP2040_ESP8266_01_01.jpg)
@@ -22,3 +24,4 @@ main library: https://github.com/khoih-prog/ESP8266_AT_WebServer , but it need t
 
 ![rp2040-zero](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-l4iQKhE3T8dVAmJH27dkiVoxApbsvFfKBQo_jDfe7TQZjq9RaBAboMkMxHtq39wX6b8c0b_giBF0r7k9IrUIhgG3bJLhz6Lkxv5WDKcvSbFvHzmNOonRA9M4dKTTUbV1dPvO3xC2ZW9SMa4NbGBySJOqBgL2Cf2Lyh56zKROTBEbGPt0oKvBuQo1tCEj/s1182/NTPclock_RP2040zero_ESP8266_01_DST_i2c_LCD1602_sch1.png)
 
+![cablaj_test](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2XVxz_A2bnnYV3SHjhfAVuW8IxVp6JgpNzUQqbfGD028S0bANSgZct7gnRYyI063fg9Iwxc5hvCtbkuWwdyf-GHhG6QqrvkF8JO_bG_d3VfHxYvpt-AeB646kzZsSzHktbYAmt6VH0ogfhBRHW0IraSebnukX7Ixn2VFDbwBrXeQROPOtj3WjHUNGrrcy/w200-h150/rp2040zero_esp8266_05.jpg)
