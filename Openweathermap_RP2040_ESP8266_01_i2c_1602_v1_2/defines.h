@@ -427,16 +427,17 @@
 
 #include <ESP8266_AT_WebServer.h>
 
-char ssid[] = "niq_ro";        // your network SSID (name)
-char pass[] = "bererece1234";        // your network password
+
+char ssid[] = "bbk3";        // your network SSID (name)
+char pass[] = "internet3";        // your network password
+         
 
 #include <ArduinoJson.h>
-
 #define led 25 // onboard led 
-char servername[]="api.openweathermap.org";          // remote weather server we will connect to
-String APIKEY = "f893fac29621a9a825a54eb64783d551"; // https://home.openweathermap.org/api_keys                            
+#define rgbled 16 // onboard WS2812 led for RP20-Zero 
+
+char servername[]="api.openweathermap.org";              // remote weather server we will connect to
+String APIKEY = "ca55295c4a4b9a681dce2688e0751dde"; // https://home.openweathermap.org/api_keys                            
 String CityID = "680332"; // Craiova city 
-
-
 
 #endif    //defines_h
