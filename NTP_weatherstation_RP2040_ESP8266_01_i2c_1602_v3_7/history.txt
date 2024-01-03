@@ -1,0 +1,12 @@
+NTP clock + Weather station with RP2040-Zero & ESP8266-01 by Nicu Florica (niq_ro)
+ v.0.0 - initial version (stable)
+ v.1.0 - added i2c LCD1602 display + find solution to extract good info
+ v.1.1 - if no new good info, remain previous data, see https://www.delftstack.com/howto/arduino/arduino-split-string/
+ v.1.2 - moved crediantial info in defines.h
+ v.3.0 - added NTP clock v.2.2 
+ v.3.1..v.3.3 - small bugfixex, show on display if wifi not connected
+ v.3.4 - added updated time for weater on display, added percent of clouds if exist
+ v.3.5 - moved to RP2040-Zero (GP8 for DST switch). but works as well on Rpi Pico (flashing led works just with RPi Pico)
+ v.3.6 - ingored wrong data for clock, using previous good data + RGB led flash on RP2040-Zero
+ v.3.6a - improved flash color changes
+ v.3.7 - initial NTP info forced to be realistic, than go to clock/weatherstation
